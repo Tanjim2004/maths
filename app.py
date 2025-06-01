@@ -15,7 +15,19 @@ st.markdown(
 )
 
 st.title("Math & Chat Bot")
-st.markdown("Enter a math problem or ask a general question to to your personal Maths solver.")
+st.markdown(
+    """
+    <style>
+    [data-testid="stAppViewContainer"] {
+        background-image: url('https://www.svgbackgrounds.com/wp-content/uploads/2021/05/calculator.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 @st.cache_resource
 def load_bot():
