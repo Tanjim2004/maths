@@ -4,7 +4,7 @@ from transformers import pipeline
 
 st.set_page_config(page_title="🧮 Math & Chat Bot", layout="centered")
 st.title("🧮 Math & Chat Bot")
-st.markdown("Enter a math problem (e.g., `2*x + 3 = 7`) or ask a general question.")
+st.markdown("Enter a math problem or ask a general question.")
 
 @st.cache_resource
 def load_bot():
@@ -30,7 +30,7 @@ def try_sympy(user_input):
         else:
             # Try to evaluate as expression
             result = sympify(user_input)
-            return f"SymPy result: {result}"
+            return f"result: {result}"
     except Exception:
         return None
 
