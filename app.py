@@ -8,7 +8,7 @@ st.markdown(
     """
     <style>
     [data-testid="stAppViewContainer"] {
-     background-color: #001f3f;
+    
         background-image: url('https://www.svgbackgrounds.com/wp-content/uploads/2021/05/calculator.svg');
         background-size: cover;
         background-repeat: no-repeat;
