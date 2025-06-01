@@ -8,7 +8,7 @@ st.markdown(
     """
     <style>
     [data-testid="stAppViewContainer"] {
-        background-color: #c71585; /* dark pink (mediumvioletred) */
+        background-color: #800020; /* dark burgundy */
     }
     </style>
     """,
