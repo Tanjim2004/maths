@@ -1,6 +1,8 @@
 import streamlit as st
 from sympy import sympify, Symbol, solve
 from transformers import pipeline
+st.set_page_config(page_title=" Math & Chat Bot", layout="centered")
+st.title("Math & Chat Bot")
 st.markdown(
     """
     <style>
@@ -12,7 +14,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.set_page_config(page_title=" Math & Chat Bot", layout="centered")
 st.title("Math & Chat Bot")
 st.markdown("Enter a math problem or ask a general question to to your personal Maths solver.")
 
