@@ -27,7 +27,7 @@ def try_sympy(user_input):
             lhs, rhs = user_input.split("=")
             x = Symbol('x')
             solution = solve(sympify(lhs) - sympify(rhs), x)
-            return f"SymPy solution: {solution}"
+            return f"solution: {solution}"
         else:
             # Try to evaluate as expression
             result = sympify(user_input)
@@ -35,7 +35,7 @@ def try_sympy(user_input):
     except Exception:
         return None
 
-if st.button("Ask Bot"):
+if st.button("Enter"):
     if user_input.strip():
         # Try SymPy first
         sympy_answer = try_sympy(user_input.strip())
