@@ -3,22 +3,12 @@ from sympy import sympify, Symbol, solve
 from transformers import pipeline
 st.set_page_config(page_title=" Math & Chat Bot", layout="centered")
 st.title("Math & Chat Bot")
-st.markdown(
-    """
-    <style>
-    [data-testid="stAppViewContainer"] {
-        background-color: #001f3f;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 
 st.markdown(
     """
     <style>
     [data-testid="stAppViewContainer"] {
+     background-color: #001f3f;
         background-image: url('https://www.svgbackgrounds.com/wp-content/uploads/2021/05/calculator.svg');
         background-size: cover;
         background-repeat: no-repeat;
