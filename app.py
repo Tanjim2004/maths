@@ -8,11 +8,7 @@ st.markdown(
     """
     <style>
     [data-testid="stAppViewContainer"] {
-    
-        background-image: url('https://images.unsplash.com/photo-1516534775068-ba3e7458af70?fit=crop&w=800&q=80');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-color: #c71585; /* dark pink (mediumvioletred) */
     }
     </style>
     """,
