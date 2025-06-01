@@ -14,7 +14,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("Math & Chat Bot")
+
 st.markdown(
     """
     <style>
