@@ -1,6 +1,19 @@
 import streamlit as st
 from sympy import sympify, Symbol, solve
 from transformers import pipeline
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #ffe6f0;
+    }
+    [data-testid="stAppViewContainer"] {
+        background-color: #ffe6f0;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.set_page_config(page_title=" Math & Chat Bot", layout="centered")
 st.title("Math & Chat Bot")
